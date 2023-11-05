@@ -74,6 +74,11 @@ header h1 {
     border: 12px solid #4AD66D;
 }
 
+/* Zodat footer niet overlapt met main */
+main {
+    margin-bottom: 75px;
+}
+
 /* Main voor flippen tekst & foto pagina's */
 .reverse {
     flex-direction: row-reverse;
@@ -89,4 +94,36 @@ header h1 {
 
 .normal div {
     padding: 20px 5px 20px 20px;
+}
+
+/* Navigatie */
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    height: 80px;
+}
+
+nav ul li img {
+    display: flex;
+    max-width: 70px;
+    max-height: 70px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: #B7EFC5;
+}
+
+/* Navigatie buttons */
+.button {
+    background-color: #4AD66D;
+    padding: 5px 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 16px;
 }
