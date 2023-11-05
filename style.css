@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Poppins:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+header {
+    padding: 10px 10px 0px 10px;
+    margin: 10px 10px 0px 10px;
+}
+
+header h1 {
+    text-align: center;
+    color: #2DC653;
+    font-size: 2.7em;
+}
+
+/* Main eerste stukje */
+.informatie1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px 0px 20px;
+}
+
+.informatie1 div {
+    flex-direction: column;
+    text-align: center;
+}
+
+.informatie1 div h2 {
+    font-size: 1.8em;
+}
+
+.informatie1 div p {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.informatie1 img {
+    border-radius: 1.5em;
+    border: 12px solid #4AD66D;
+}
+
+/* Main tweede stukje */
+.informatie2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 0px 20px 0px 20px;
+}
+
+.informatie2 div {
+    flex-direction: column;
+    text-align: center;
+}
+
+.informatie2 div h2 {
+    font-size: 1.8em;
+}
+
+.informatie2 div p {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.informatie2 img {
+    border-radius: 1.5em;
+    border: 12px solid #4AD66D;
+}
+
+/* Main voor flippen tekst & foto pagina's */
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.reverse div {
+    padding: 20px 20px 20px 5px;
+}
+
+.normal {
+    flex-direction: row;
+}
+
+.normal div {
+    padding: 20px 5px 20px 20px;
+}
